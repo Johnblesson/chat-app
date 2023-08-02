@@ -28,6 +28,7 @@ const LoginPage = () => {
   return (
 
       <div className="auth--container">
+        <div className= "login-title"><h1>WanChat</h1></div>
           <div className="form--wrapper">
             <form onSubmit={(e) => {handleUserLogin(e, credentials)}}>
                 <div className="field--wrapper">
